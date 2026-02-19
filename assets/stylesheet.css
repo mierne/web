@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    margin: 0rem;
+    padding: 0.2rem;
+    font-size: 'Inter Variable', 'Noto Sans', 'Helvetica', sans-serif, system-ui;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+em {
+    text-decoration: underline;
+}
+
+.recent-posts {
+    margin-top: 1rem;
+}
+
+
+.recent-posts ul li {
+    list-style: disc !important;
+    margin-left: 1rem;
+}
+
+a:link {
+    text-decoration: underline dotted;
+    text-shadow: 0 0 0.313rem #0000ee
+}
+
+a:hover {
+    background-color: transparent;
+    text-shadow: 0 0 0.313rem #13adff;
+}
+
+a:visited {
+    color: #000098;
+}
